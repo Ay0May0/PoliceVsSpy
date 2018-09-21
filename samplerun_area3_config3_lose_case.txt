@@ -1,0 +1,133 @@
+Enter the name of your player: 
+Larry
+Your random starting location is i
+Type 'h' at any time for a list of commands.
+Enter command: 
+location
+Your location is i
+Enter command: 
+move b
+Enter command: 
+path i
+BFS
+b --2--> i
+DFS
+b --5--> d --3--> f --4--> i
+Dijkstra's
+b --2--> i
+Enter command: 
+drop
+Dropped a Spy cam at b
+Enter command: 
+move d
+Enter command: 
+move k
+Enter command: 
+move m
+Spy's location is k
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+drop
+Dropped a Spy cam at m
+Enter command: 
+move n
+Enter command: 
+drop
+Dropped a Spy cam at n
+Enter command: 
+move l
+Enter command: 
+drop
+Dropped a Spy cam at l
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+move k
+Enter command: 
+move d
+Enter command: 
+move f
+Spy's location is d
+Enter command: 
+drop
+Not enough spycams
+Enter command: 
+get n
+Enter command: 
+drop
+Dropped a Spy cam at f
+Enter command: 
+move d
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+move b
+Enter command: 
+location
+Your location is b
+Enter command: 
+get l
+Enter command: 
+drop
+Already a Spy cam there
+Enter command: 
+spycams
+You have 1 spycams remaining.
+Your spycams are located at nodes: 
+Spy cam at b
+Spy cam at m
+Spy cam at f
+Enter command: 
+move i
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+drop
+Dropped a Spy cam at i
+Enter command: 
+move f
+Enter command: 
+move d
+Spy's location is k
+Enter command: 
+spycams
+You have 0 spycams remaining.
+Your spycams are located at nodes: 
+Spy cam at b
+Spy cam at m
+Spy cam at f
+Spy cam at i
+Enter command: 
+budget
+Your budget is 59 pounds
+Enter command: 
+get b
+Enter command: 
+location
+Your location is d
+Enter command: 
+drop
+Dropped a Spy cam at d
+Enter command: 
+spycams
+You have 0 spycams remaining.
+Your spycams are located at nodes: 
+Spy cam at m
+Spy cam at f
+Spy cam at i
+Spy cam at d
+Enter command: 
+get i
+Enter command: 
+location
+Your location is d
+Enter command: 
+move k
+GAME OVER, you did not find the spy, spy wins
+Spy is at node k
+Player is at node k

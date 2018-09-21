@@ -1,0 +1,325 @@
+Enter the name of your player: 
+Robert
+Your random starting location is vanhise
+Type 'h' at any time for a list of commands.
+Enter command: 
+location
+Your location is vanhise
+Enter command: 
+neighbors
+7 discovery_institute
+8 east_campus_mall
+10 natatorium
+7 psychology
+7 red_gym
+Enter command: 
+move psychology
+Enter command: 
+neighbors
+2 cs_dept
+2 discovery_institute
+5 noland_hall
+7 vanhise
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+move cs_dept
+Spy's location is mechanical_building
+Enter command: 
+neighbors
+3 camp_randall
+5 chemistry_building
+7 gordon_commons
+3 noland_hall
+2 psychology
+2 union_south
+Enter command: 
+drop
+Dropped a Spy cam at cs_dept
+Enter command: 
+move camp_randall
+Enter command: 
+neighbors
+3 cs_dept
+2 union_south
+12 uw_hospital
+Enter command: 
+move union_south
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+drop
+Dropped a Spy cam at union_south
+Enter command: 
+neighbors
+2 camp_randall
+2 cs_dept
+4 ece_dept
+3 mechanical_building
+1 wendt_commons
+Enter command: 
+move mechanical_building
+Spy's location is bascom_hall
+Enter command: 
+neighbors
+1 ece_dept
+13 natatorium
+3 union_south
+7 uw_hospital
+Enter command: 
+move natatorium
+Enter command: 
+budget
+Your budget is 116 pounds
+Enter command: 
+neighbors
+12 bascom_hall
+4 eagle_heights
+13 mechanical_building
+6 picnic_point
+5 uw_hospital
+10 vanhise
+Enter command: 
+move bascom_hall
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+drop
+Dropped a Spy cam at bascom_hall
+Enter command: 
+neighbors
+18 eagle_heights
+4 memorial_union
+12 natatorium
+15 picnic_point
+6 red_gym
+Enter command: 
+move memorial_union
+Spy's location is red_gym
+Enter command: 
+help
+All commands can be activated with the first character.
+'budget' prints the money you have remaining to use on moves.
+'clock' returns the number of moves remaining.
+'drop' places a spycam at your current location if there is one available.
+'get NODE' retrieves a spycam from NODE if NODE has a spycam
+'location' prints your location
+'move NODE' moves you to NODE if possible.
+'neighbors' prints all neighbors of your location and the cost to get there.
+'onspy' tells you if you are at the same location as the spy and decreases your budget by a prespecified amount
+'path NODE' prints three possible paths from your location to NODE using DFS, BFS, and Dijkstra's
+'quit' ends the game
+'spycams' prints the nubmer of spycams remaining and the locations of placed spycams.
+Enter command: 
+get bascom_hall
+Enter command: 
+drop memorial_union
+Dropped a Spy cam at memorial_union
+Enter command: 
+neighbors
+neighbors is not a neighbor of your current location
+Enter command: 
+neighbor
+4 bascom_hall
+4 east_campus_mall
+2 gordon_commons
+6 red_gym
+Enter command: 
+move gordon_commons
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+drop
+Dropped a Spy cam at gordon_commons
+Enter command: 
+spycams
+You have 2 spycams remaining.
+Your spycams are located at nodes: 
+Spy cam at cs_dept
+Spy cam at union_south
+Spy cam at memorial_union
+Spy cam at gordon_commons
+Enter command: 
+neighbors
+7 cs_dept
+2 east_campus_mall
+2 memorial_union
+3 noland_hall
+Enter command: 
+move noland_hall
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+move cs_dept
+Spy's location is picnic_point
+Enter command: 
+clock
+29 moves remaining
+Enter command: 
+budget
+Your budget is 86 pounds
+Enter command: 
+neighbor
+3 camp_randall
+5 chemistry_building
+7 gordon_commons
+3 noland_hall
+2 psychology
+2 union_south
+Enter command: 
+move camp_randall
+Enter command: 
+drop
+Dropped a Spy cam at camp_randall
+Enter command: 
+neighbor
+3 cs_dept
+2 union_south
+12 uw_hospital
+Enter command: 
+move uw_hospital
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+spycams
+You have 1 spycams remaining.
+Your spycams are located at nodes: 
+Spy cam at cs_dept
+Spy cam at union_south
+Spy cam at memorial_union
+Spy cam at gordon_commons
+Spy cam at camp_randall
+Enter command: 
+get gordon_commons
+Enter command: 
+neighbors
+12 camp_randall
+7 eagle_heights
+7 mechanical_building
+5 natatorium
+7 picnic_point
+Enter command: 
+move eagle_heights
+Spy's location is vanhise
+Enter command: 
+drop eagle_heights
+Dropped a Spy cam at eagle_heights
+Enter command: 
+Not a valid command.
+Enter command: 
+drop
+Already a Spy cam there
+Enter command: 
+move bascom_hall
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+neighbors
+18 eagle_heights
+4 memorial_union
+12 natatorium
+15 picnic_point
+6 red_gym
+Enter command: 
+move red_gym
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+neighbors
+6 bascom_hall
+6 memorial_union
+7 vanhise
+Enter command: 
+spycams
+You have 1 spycams remaining.
+Your spycams are located at nodes: 
+Spy cam at cs_dept
+Spy cam at union_south
+Spy cam at memorial_union
+Spy cam at camp_randall
+Spy cam at eagle_heights
+Enter command: 
+move vanhise
+Spy's location is east_campus_mall
+Enter command: 
+move east_campus_mall
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+neighbors
+6 chemistry_building
+2 gordon_commons
+4 memorial_union
+8 vanhise
+Enter command: 
+move chemistry_building
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+neighbors
+5 cs_dept
+6 east_campus_mall
+Enter command: 
+move east_campus_mall
+Spy's location is vanhise
+Enter command: 
+neighbors
+6 chemistry_building
+2 gordon_commons
+4 memorial_union
+8 vanhise
+Enter command: 
+get union_south
+Enter command: 
+drop
+Dropped a Spy cam at east_campus_mall
+Enter command: 
+neighbors
+6 chemistry_building
+2 gordon_commons
+4 memorial_union
+8 vanhise
+Enter command: 
+move vanhise
+Not enough money cost is 8 budget is 3
+Enter command: 
+budget
+Your budget is 3 pounds
+Enter command: 
+neighbor
+6 chemistry_building
+2 gordon_commons
+4 memorial_union
+8 vanhise
+Enter command: 
+move gordon_commons
+Enter command: 
+onspy
+The spy is not at your location
+Enter command: 
+neighbor
+7 cs_dept
+2 east_campus_mall
+2 memorial_union
+3 noland_hall
+Enter command: 
+budget
+Your budget is -1 pounds
+Enter command: 
+move noland_hall
+Not enough money cost is 3 budget is -1
+Enter command: 
+quit
+GAME OVER, you did not find the spy, spy wins
+Spy is at node red_gym
+Player is at node gordon_commons

@@ -1,0 +1,58 @@
+Enter the name of your player: 
+Mike
+Your random starting location is a
+Type 'h' at any time for a list of commands.
+Enter command: 
+h
+All commands can be activated with the first character.
+'budget' prints the money you have remaining to use on moves.
+'clock' returns the number of moves remaining.
+'drop' places a spycam at your current location if there is one available.
+'get NODE' retrieves a spycam from NODE if NODE has a spycam
+'location' prints your location
+'move NODE' moves you to NODE if possible.
+'neighbors' prints all neighbors of your location and the cost to get there.
+'onspy' tells you if you are at the same location as the spy and decreases your budget by a prespecified amount
+'path NODE' prints three possible paths from your location to NODE using DFS, BFS, and Dijkstra's
+'quit' ends the game
+'spycams' prints the nubmer of spycams remaining and the locations of placed spycams.
+Enter command: 
+location
+Your location is a
+Enter command: 
+drop
+Dropped a Spy cam at a
+Enter command: 
+move f
+Spy's location is e
+Enter command: 
+move e
+Enter command: 
+move d
+Spy's location is e
+Enter command: 
+drop
+Dropped a Spy cam at d
+Enter command: 
+location
+Your location is d
+Enter command: 
+move a
+Not enough money cost is 20 budget is 12
+Enter command: 
+move c
+Enter command: 
+move a
+Spy's location is e
+Enter command: 
+spycams
+You have 1 spycams remaining.
+Your spycams are located at nodes: 
+Spy cam at a
+Spy cam at d
+Enter command: 
+move f
+GAME OVER, spy is surrounded.
+Mike wins!
+Spy is at node e
+Player is at node f

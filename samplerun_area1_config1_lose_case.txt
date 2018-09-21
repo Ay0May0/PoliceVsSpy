@@ -1,0 +1,100 @@
+Enter the name of your player: 
+Adam
+Your random starting location is a
+Type 'h' at any time for a list of commands.
+Enter command: 
+neighbors
+1 b
+4 c
+20 d
+1 f
+Enter command: 
+budget
+Your budget is 15 pounds
+Enter command: 
+move d
+Not enough money cost is 20 budget is 15
+Enter command: 
+move f
+Spy's location is a
+Enter command: 
+move a
+Enter command: 
+move c
+Spy's location is a
+Enter command: 
+drop
+Dropped a Spy cam at c
+Enter command: 
+neighbors
+4 a
+2 b
+1 d
+Enter command: 
+move b
+Enter command: 
+drop
+Dropped a Spy cam at b
+Enter command: 
+clock
+6 moves remaining
+Enter command: 
+move a
+Spy's location is e
+Enter command: 
+neighbors
+1 b
+4 c
+20 d
+1 f
+Enter command: 
+move f
+Enter command: 
+drop
+Dropped a Spy cam at f
+Enter command: 
+neighbors
+1 a
+1 e
+Enter command: 
+move a
+Spy's location is e
+Enter command: 
+move e
+e is not a neighbor of your current location
+Enter command: 
+neighbors
+1 b
+4 c
+20 d
+1 f
+Enter command: 
+location
+Your location is a
+Enter command: 
+move f
+Enter command: 
+neighbors
+1 a
+1 e
+Enter command: 
+move 3
+3 is not a neighbor of your current location
+Enter command: 
+move e
+Spy's location is a
+Enter command: 
+budget
+Your budget is 9 pounds
+Enter command: 
+clock
+1 moves remaining
+Enter command: 
+neighbors
+3 d
+1 f
+Enter command: 
+move d
+GAME OVER, you did not find the spy, spy wins
+Spy is at node a
+Player is at node d
